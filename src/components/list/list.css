@@ -1,0 +1,66 @@
+.list{
+    flex: 1;
+}
+
+
+/* userInfo style */
+.user-info{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .username{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    .icons{
+        display: flex;
+        gap: 20px;
+
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+
+
+/* chat list styles */
+
+.chat-list{
+
+    .search{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+
+        .search-bar{
+            flex: 1;
+            background-color: rgba(24, 22, 53, 0.513);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border-radius: 10px;
+
+            input{
+                background-color: transparent;
+                border: none;
+                outline: none;
+                color: white;
+            }
+        }
+    }
+
+}
