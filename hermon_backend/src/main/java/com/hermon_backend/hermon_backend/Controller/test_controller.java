@@ -13,7 +13,5 @@ public class test_controller {
         return ("backend is running fine");
     };
 
-    public  int Test(){
-        return (8);
-    }
+
 }
