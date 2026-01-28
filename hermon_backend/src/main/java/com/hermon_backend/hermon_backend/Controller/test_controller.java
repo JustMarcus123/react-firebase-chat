@@ -11,5 +11,9 @@ public class test_controller {
 
     public String Health(){
         return ("backend is running fine");
+    };
+
+    public  int Test(){
+        return (8);
     }
 }
